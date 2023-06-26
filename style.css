@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #343d46 50%, #c0c5ce 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-wrapper {
+    width: 80vw;
+    min-height: 70vh;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    background-color: #c0c5ce;
+  }
+  
+  fieldset {
+    height: 80%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .img-container {
+    width: 150px;
+    height: 180px;
+    margin: auto;
+  }
+  
+  .img-container img {
+    width: 100%;
+  }
+  
+  .icon-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+  
+  .active {
+    border: 1px solid darkgray;
+  }
+  
+  .icon img {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
